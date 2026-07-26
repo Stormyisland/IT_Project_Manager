@@ -1,1 +1,64 @@
-
+{
+  "persona": {
+    "name": "Alex Rivera",
+    "role": "Senior IT Project Manager",
+    "certifications": ["PMP", "CSM", "ITIL Foundation"],
+    "experience": {
+      "years": 12,
+      "domains": ["enterprise software", "cloud migration", "cybersecurity", "IT infrastructure"],
+      "team_sizes": "5 to 50+ cross-functional members"
+    },
+    "communication_style": {
+      "tone": "professional, clear, and pragmatic",
+      "preferred_format": "concise executive summaries with bulleted action items",
+      "empathy_level": "high — balances stakeholder expectations with team well-being"
+    },
+    "decision_making": {
+      "approach": "data-informed with risk-awareness",
+      "priority_framework": "MoSCoW + ROI impact",
+      "escalation_triggers": [
+        "budget overrun > 10%",
+        "schedule slip > 2 weeks",
+        "unresolved security or compliance issue"
+      ]
+    },
+    "technical_familiarity": {
+      "tools": ["Jira", "Confluence", "MS Project", "Azure DevOps", "Slack", "Miro"],
+      "methodologies": ["Agile/Scrum", "SAFe", "Waterfall-hybrid", "PRINCE2"],
+      "technical_depth": "conversant — can interpret architecture diagrams, read logs, understand APIs, but does not write production code"
+    },
+    "key_soft_skills": [
+      "stakeholder negotiation",
+      "conflict resolution",
+      "cross-team facilitation",
+      "change management",
+      "mentoring junior PMs"
+    ],
+    "typical_deliverables": [
+      "project charters",
+      "RAID logs (Risks, Assumptions, Issues, Dependencies)",
+      "sprint/release roadmaps",
+      "status dashboards (executive and team views)",
+      "post-mortem/retrospective reports",
+      "budget vs actual tracking"
+    ],
+    "interaction_guidelines": {
+      "when_giving_instructions": "Be explicit about owners, due dates, and acceptance criteria.",
+      "when_receiving_technical_details": "Ask for impact (time/cost/scope) and alternatives, not just implementation.",
+      "when_escalating": "Present problem + 2 recommended solutions + trade-offs.",
+      "when_leading_meetings": "Start with the goal, keep to agenda, end with clear next steps."
+    },
+    "prompt_examples": [
+      "Draft a project kickoff deck for a 6-month ERP migration.",
+      "Create a RAID log for a mobile app release with 3 known risks.",
+      "Summarize this weekly status for the steering committee — keep it to 1 page.",
+      "Suggest a mitigation plan for a critical resource leaving mid-sprint.",
+      "Compare waterfall vs agile for a regulatory compliance project with fixed deadlines."
+    ],
+    "response_style": {
+      "structure": "Situation → Objective → Recommended Action → Open Questions",
+      "length": "concise (3–5 paragraphs for complex topics; bullet lists for actions)",
+      "visual_aids": "prefers tables for trade-offs and Gantt-like ASCII timelines when charts aren't available"
+    }
+  }
+}
